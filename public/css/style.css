@@ -1,0 +1,148 @@
+*
+{
+    font-size: large;
+    font-family: 'Lucida Console', Courier, monospace;
+    transition: 200ms;
+}
+html
+{
+    min-height: 100dvh;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    width: inherit;
+    min-height: 5dvh;
+    position: sticky;
+    top: 10px;
+}
+.nav-item
+{
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    min-width: 100px;
+}
+.nav-item:hover
+{
+    text-shadow: 2px 2px red;
+}
+.container
+{
+    margin: 50px 10dvw;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
+    align-items: center;
+    vertical-align: middle;
+    min-height:max-content;
+}
+.container-reg
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.big-refer
+{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.big-refer:hover
+{
+    color: red;
+}
+.container-form
+{
+    margin: 50px 10dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
+    align-items: center;
+    vertical-align: middle;
+    min-height:max-content;
+}
+.form-input
+{
+    width: 250px;
+    text-align: center;
+}
+h4
+{
+    margin: 5px 15px;
+}
+span
+{
+    color:red;
+    padding:5px;
+}
+input
+{
+    padding:5px
+}
+input.reg-form
+{
+    padding:10px;
+    width: 100%;
+    border-radius: 2vw;
+    margin-bottom: 10px;
+}
+input.reg-form:hover
+{
+    background-color: rgb(220, 220, 220);
+}
+.remember-me
+{
+    color:gray;
+}
+.invalid
+{
+    border-color: red;
+}
+h2
+{
+    border-bottom: 2px solid black;
+}
+
+table
+{
+    margin: 10px 0px;
+    border-spacing: 5px;
+    width: 100%;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
+}
+td
+{
+    text-align: center;
+}
+tr:nth-child(odd)
+{
+    background-color: rgb(221, 221, 221);
+}
+
+.urgent
+{
+    border-bottom: 5px solid red;
+}
+button
+{
+    background: none;
+    background-color: rgb(240, 240, 240);
+    margin: 5px;
+}
+button:hover
+{
+    background-color: rgb(200, 200, 200);
+    border-color: rgb(81, 81, 81);
+}
